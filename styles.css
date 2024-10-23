@@ -1,0 +1,96 @@
+/* I don't know CSS so much so, I'm not really sure if every single part of
+this code is necessary but I'm trying to do my best */
+
+header {
+    background-color: #4069E5FF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 42px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Pages{
+    padding-right: 66px;
+    gap: 70px;
+    display: flex;
+}
+
+.compound {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.textmain{
+    padding-left: 30px;
+}
+
+.MyPicture{
+    position: relative; 
+    top: 57px; 
+    left: 71px; 
+    width: 583px; 
+    height: 483px; 
+    border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.page {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.page:hover {
+    color: #ff1900;
+    transform: scale(1.5);
+}
+
+@media (max-width:940px){
+    header{
+        flex-direction: column;
+    }
+    .logo{
+        padding-left: 0px;
+    }
+    .Pages{
+        padding-right: 0px;
+    }
+}
+
+@media (max-width:1228px){
+    .compound{
+        flex-direction: column;
+        padding-left: 0px;
+    }
+    .textmain{
+        padding-left: 71px;
+    }
+    .MyPicture{
+        left:0px
+    }
+}
+
+@media (max-width:961px){
+
+}
