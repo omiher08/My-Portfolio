@@ -9,9 +9,9 @@ header {
     align-items: center;
 }
 
-main {
+.main-home {
     margin: 0;
-    padding: 0;
+    padding: 30px;
     justify-content: center;
     align-items: center;
 }
