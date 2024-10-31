@@ -22,7 +22,7 @@ header {
     align-items: center;
 }
 
-.Pages{
+.Pages {
     padding-right: 66px;
     gap: 70px;
     display: flex;
@@ -37,12 +37,87 @@ header {
     justify-content: center;
 }
 
-.MyPicture{
+.MyPicture {
     position: relative; 
     top: 57px;
     width: 583px; 
     height: 483px; 
     border-radius: 8px;
+}
+
+.main-about {
+    display: flex; 
+    justify-content: center; 
+    padding-top: 30px; 
+    padding-bottom: 30px; 
+    flex-direction: column;
+    text-align: center;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 30px;
+}
+
+.date-text-section-left {
+    position: relative;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    max-width: 400px;
+    text-align: left;
+    margin-right: 500px;
+}
+
+.date-text-section-right {
+    position: relative;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    max-width: 400px;
+    text-align: right;
+    margin-left: 500px;
+}
+
+.date-text-section-left h2{
+    color: #203ee8;
+    margin: 0;
+}
+
+.date-text-section-right h2{
+    color: #203ee8;
+    margin: 0;
+}
+
+.circle-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.outer-circle {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 255, 255, 0.5); /* Color azul claro y semitransparente */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #00e5ff; /* Color azul claro */
+    border-radius: 50%;
 }
 
 a {
