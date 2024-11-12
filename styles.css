@@ -132,7 +132,6 @@ header {
     display: flex;
     align-items: center;
     margin: 10px;
-    width: auto;
     text-align: right;
     margin-left: auto;
 }
@@ -141,7 +140,6 @@ header {
     display: flex;
     align-items: center;
     margin: 10px;
-    width: auto;
     text-align: left;
     margin-right: auto;
 }
@@ -151,6 +149,7 @@ header {
     flex-direction: column;
     margin-left: 8%;
     width: auto;
+    max-width: 400px;
 }
 
 .project-details-right {
@@ -158,6 +157,7 @@ header {
     flex-direction: column;
     margin-right: 8%;
     width: auto;
+    max-width: 400px;
 }
 
 .project-details-left a {
@@ -169,7 +169,7 @@ header {
     text-decoration: underline;
 }
 
-.project-details-left img {
+.project-left img {
     max-width: 200px;
 }
 
@@ -182,7 +182,7 @@ header {
     text-decoration: underline;
 }
 
-.project-details-right img {
+.project-right img {
     max-width: 200px;
 }
 
