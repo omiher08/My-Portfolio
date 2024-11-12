@@ -121,6 +121,71 @@ header {
     border-radius: 50%;
 }
 
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.project-right {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: auto;
+    text-align: right;
+    margin-left: auto;
+}
+
+.project-left {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: auto;
+    text-align: left;
+    margin-right: auto;
+}
+
+.project-details-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    width: auto;
+}
+
+.project-details-right {
+    display: flex;
+    flex-direction: column;
+    margin-right: 8%;
+    width: auto;
+}
+
+.project-details-left a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project-details-left a:hover {
+    text-decoration: underline;
+}
+
+.project-details-left img {
+    max-width: 200px;
+}
+
+.project-details-right a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project-details-right a:hover {
+    text-decoration: underline;
+}
+
+.project-details-right img {
+    max-width: 200px;
+}
+
 a {
     text-decoration: none;
     color: black;
